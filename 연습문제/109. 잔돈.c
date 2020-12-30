@@ -23,7 +23,7 @@ int main()
         d=coin/10;
         
         char temp[4];
-        sprintf(temp,"%d %d %d %d",d,c,b,a);
+        printf(temp,"%d %d %d %d",d,c,b,a);
         Answer = temp;
         
 		printf("Case #%d\n", test_case+1);
